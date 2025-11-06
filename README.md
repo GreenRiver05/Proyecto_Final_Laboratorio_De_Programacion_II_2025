@@ -21,7 +21,7 @@ Este proyecto corresponde a una **plataforma web de ventas** desarrollada para d
 
 | Entidad         | Descripción funcional |
 |-----------------|-----------------------|
-| **Usuario**      | Persona que accede al sistema. Puede tener rol de cliente, empleado o administrador. Gestiona su perfil y participa en acciones según permisos. |
+| **Usuario**      | Persona que accede al sistema. Puede tener rol de empleado o administrador. Gestiona su perfil y participa en acciones según permisos. |
 | **Cliente**      | Usuario que realiza compras. Tiene historial de pedidos, puede enviar consultas y actualizar sus datos personales. |
 | **Producto**     | Artículo disponible para la venta. Incluye información comercial, estado de disponibilidad y stock. |
 | **Categoría**    | Agrupación lógica de productos por tipo o uso. Facilita la navegación y organización del catálogo. |
