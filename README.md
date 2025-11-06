@@ -1,3 +1,7 @@
+### 📄 Presentación del proyecto
+
+[📂 Ver presentación en Google Drive](https://docs.google.com/document/d/1q6TZyCuTYKILoUcFNR_0_dcI8NxfvsNRRzU2FIbEa-A/edit?usp=sharing)
+
 # 🛍️ Plataforma Web de Ventas para Emprendimiento Personal
 
 Este proyecto corresponde a una **plataforma web de ventas** desarrollada para digitalizar y profesionalizar un emprendimiento que actualmente comercializa productos a través de redes sociales como **Instagram** y **WhatsApp**. El sistema permite gestionar productos, pedidos y consultas, brindando una experiencia más organizada y accesible tanto para los clientes como para el equipo del negocio.
@@ -24,6 +28,9 @@ Este proyecto corresponde a una **plataforma web de ventas** desarrollada para d
 | **DetallePedido**| Relación entre pedido y productos, con cantidad y precio unitario. |
 | **Consulta**     | Mensaje enviado por un visitante o cliente con dudas o comentarios. |
 
+#### Diagrama de Clases
+![Diagrama de Clases](docs/diagramas/DiagramaDeClases.jpg)
+
 ---
 
 ## 🔐 Roles y permisos
@@ -33,6 +40,9 @@ Este proyecto corresponde a una **plataforma web de ventas** desarrollada para d
 | **Administrador**| Gestión total del sistema: usuarios, productos, categorías, pedidos y auditoría. |
 | **Empleado**     | Gestión de productos, pedidos y consultas. Puede modificar su perfil. |
 | **Cliente**      | Registro, edición de perfil, carrito de compras y realización de pedidos. |
+
+#### Diagrama de Casos de Uso
+![Diagrama de Casos de Uso](docs/diagramas/CasosDeUso.jpg)
 
 ---
 
@@ -80,8 +90,8 @@ Este proyecto corresponde a una **plataforma web de ventas** desarrollada para d
 
 ---
 
-## 📌 Estado del proyecto
 
-✅ Módulos funcionales implementados  
-🚧 En proceso de pruebas y ajustes visuales  
-📱 Futuras integraciones con app móvil vía API
+### 🧪 Prototipos y diseño visual
+
+#### Wireframes y prototipos en Figma
+[🔗Figma – Proyecto de interfaz](https://www.figma.com/design/AbqPECEezeyW8UD9lFEL7M/Sin-t%C3%ADtulo?node-id=79-3478&t=nA7LzktQpI77TqAD-1)
