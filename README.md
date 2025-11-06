@@ -1,56 +1,87 @@
-📖 Narrativa del sistema
-El sistema desarrollado corresponde a una plataforma web de ventas para un emprendimiento personal que actualmente comercializa productos a través de redes sociales como Instagram y WhatsApp. El objetivo principal es digitalizar el proceso de compra y gestión de productos, ofreciendo una experiencia más profesional, organizada y accesible tanto para los clientes como para el equipo del negocio.
+# 🛍️ Plataforma Web de Ventas para Emprendimiento Personal
 
-🧩 Entidades principales
-Usuario: Persona que accede al sistema. Puede ser cliente, empleado o administrador. Cada usuario tiene email, contraseña, avatar y datos personales.
-Producto: Artículo disponible para la venta. Incluye nombre, descripción, precio, imagen, categoría y estado.
-Categoría: Agrupación de productos por tipo o uso. Permite organizar el catálogo.
-Pedido: Representa una compra realizada por un cliente. Incluye productos, cantidades, fecha, estado y total.
-DetallePedido: Relación entre pedido y productos, con cantidad y precio unitario.
-Consulta: Mensaje enviado por un visitante o cliente con dudas sobre productos o el negocio.
+Este proyecto corresponde a una **plataforma web de ventas** desarrollada para digitalizar y profesionalizar un emprendimiento que actualmente comercializa productos a través de redes sociales como **Instagram** y **WhatsApp**. El sistema permite gestionar productos, pedidos y consultas, brindando una experiencia más organizada y accesible tanto para los clientes como para el equipo del negocio.
 
-🔐 Roles y permisos
-Administrador: Puede gestionar usuarios, productos, categorías, pedidos y eliminar entidades. Tiene acceso a vistas de auditoría.
-Empleado: Puede agregar productos, ver pedidos, responder consultas y modificar su perfil.
-Cliente: Puede registrarse, iniciar sesión, editar su perfil, agregar productos al carrito y realizar pedidos.
+---
 
-⚙️ Funcionalidades clave
-Para visitantes (sin login):
-Navegar productos por categoría
-Buscar productos por nombre o palabra clave
-Filtrar por precio, categoría o disponibilidad
-Ver detalles del producto
-Enviar consultas desde la sección de contacto
+## 🚀 Objetivos del sistema
 
-Para clientes registrados:
-Crear cuenta y editar perfil (incluye avatar)
-Agregar/quitar productos del carrito
-Ver el contenido del carrito
-Realizar pedido (requiere login)
-Ver historial de pedidos
+- Digitalizar el proceso de compra y gestión de productos.
+- Mejorar la experiencia del cliente con una interfaz clara y moderna.
+- Optimizar la administración del catálogo, pedidos y consultas.
+- Preparar la base para futuras integraciones móviles mediante API.
 
-Para empleados y administradores:
-ABM de productos (con imagen)
-ABM de categorías
-ABM de promociones y noticias
-Ver y gestionar pedidos
-Ver y responder consultas
-Ver qué usuario creó cada pedido (auditoría)
+---
 
-📊 Informes y listados
-Listar todos los productos activos, con filtros por categoría y precio
-Listar productos por categoría específica
-Listar pedidos realizados por un cliente
-Listar pedidos por estado (pendiente, enviado, cancelado)
-Listar consultas recibidas con fecha y estado (respondida/no respondida)
-Listar productos con stock bajo (ej. menos de 5 unidades)
+## 🧩 Entidades principales
 
-📑Requisitos técnicos
-Login con roles y uso de [Authorize]
-Avatar en perfil de usuario
-ABM de productos hecho con Vue.js y AJAX
-Paginado en listados de productos y pedidos
-Búsqueda de productos vía AJAX (no traer todos)
-API con JWT para pedidos o productos (ej. para integración futura con app móvil)
-Subida de imágenes para productos y avatar
-Auditoría: registrar qué usuario creó/modificó cada pedido o producto (visible solo para admins)
+| Entidad         | Descripción |
+|-----------------|-------------|
+| **Usuario**      | Cliente, empleado o administrador. Incluye email, contraseña, avatar y datos personales. |
+| **Producto**     | Artículo en venta. Contiene nombre, descripción, precio, imagen, categoría y estado. |
+| **Categoría**    | Agrupación de productos por tipo o uso. Mejora la navegación del catálogo. |
+| **Pedido**       | Compra realizada por un cliente. Incluye productos, cantidades, fecha, estado y total. |
+| **DetallePedido**| Relación entre pedido y productos, con cantidad y precio unitario. |
+| **Consulta**     | Mensaje enviado por un visitante o cliente con dudas o comentarios. |
+
+---
+
+## 🔐 Roles y permisos
+
+| Rol             | Permisos principales |
+|-----------------|----------------------|
+| **Administrador**| Gestión total del sistema: usuarios, productos, categorías, pedidos y auditoría. |
+| **Empleado**     | Gestión de productos, pedidos y consultas. Puede modificar su perfil. |
+| **Cliente**      | Registro, edición de perfil, carrito de compras y realización de pedidos. |
+
+---
+
+## ⚙️ Funcionalidades clave
+
+### Para visitantes (sin login)
+- 🔍 Navegar productos por categoría
+- 🧠 Buscar por nombre o palabra clave
+- 🎯 Filtrar por precio, categoría o disponibilidad
+- 📄 Ver detalles del producto
+- ✉️ Enviar consultas desde la sección de contacto
+
+### Para clientes registrados
+- 👤 Crear cuenta y editar perfil (incluye avatar)
+- 🛒 Agregar/quitar productos del carrito
+- 📦 Ver el contenido del carrito y realizar pedidos
+- 📜 Consultar historial de compras
+
+### Para empleados y administradores
+- 🧰 ABM de productos, categorías, promociones y noticias
+- 📬 Ver y responder consultas
+- 📊 Gestionar pedidos y ver auditoría de acciones
+
+---
+
+## 📊 Informes y listados
+
+- Listar productos activos con filtros por categoría y precio
+- Listar productos por categoría específica
+- Listar pedidos por cliente o por estado (pendiente, enviado, cancelado)
+- Listar consultas con fecha y estado (respondida/no respondida)
+- Listar productos con stock bajo (menos de 5 unidades)
+
+---
+
+## 🧪 Requisitos técnicos
+
+- 🔐 Login con roles y uso de `[Authorize]`
+- 🖼️ Subida de imágenes para productos y avatar
+- ⚙️ ABM de productos con **Vue.js** y **AJAX**
+- 🔎 Búsqueda de productos vía AJAX (sin traer todos)
+- 📄 Paginado en listados de productos y pedidos
+- 🔐 API con **JWT** para pedidos y productos (pensado para integración móvil)
+- 🕵️ Auditoría de acciones (registro de usuario que crea/modifica pedidos o productos)
+
+---
+
+## 📌 Estado del proyecto
+
+✅ Módulos funcionales implementados  
+🚧 En proceso de pruebas y ajustes visuales  
+📱 Futuras integraciones con app móvil vía API
