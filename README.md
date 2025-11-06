@@ -95,4 +95,4 @@ Este proyecto corresponde a una **plataforma web de ventas** desarrollada para d
 ### 🧪 Prototipos y diseño visual
 
 #### Wireframes y prototipos en Figma
-[🔗Figma – Proyecto de interfaz](https://www.figma.com/design/AbqPECEezeyW8UD9lFEL7M/Sin-t%C3%ADtulo?node-id=79-3478&t=nA7LzktQpI77TqAD-1)
+[🔗Figma – Proyecto de interfaz](https://www.figma.com/design/AbqPECEezeyW8UD9lFEL7M/Sin-t%C3%ADtulo?node-id=74-199&t=4Fg86E0llpekBGWu-1)
