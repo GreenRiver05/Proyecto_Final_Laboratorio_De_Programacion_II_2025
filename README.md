@@ -1,6 +1,4 @@
-### 📄 Presentación del proyecto
-
-[📂 Ver presentación en Google Drive](https://docs.google.com/document/d/1q6TZyCuTYKILoUcFNR_0_dcI8NxfvsNRRzU2FIbEa-A/edit?usp=sharing)
+### 📄 Presentación del proyecto [📂 Ver presentación en Google Drive](https://docs.google.com/document/d/1q6TZyCuTYKILoUcFNR_0_dcI8NxfvsNRRzU2FIbEa-A/edit?usp=sharing)
 
 # 🛍️ Plataforma Web de Ventas para Emprendimiento Personal
 
